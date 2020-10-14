@@ -81,6 +81,7 @@ pry(main)> cart.add_product(product2)
 pry(main)> cart.products
 #=> [#<Product:0x00007fccd29b5720...>, #<Product:0x00007fccd2985f48...>]
 
+
 pry(main)> cart.details
 #=> {name: "King Soopers", capacity: 30}
 ```
