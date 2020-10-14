@@ -43,7 +43,7 @@ class ProductTest < Minitest::Test
   end
 
   def test_category_can_return_category_and_name
-    skip
+    # skip
     product = Product.new(:paper, 'toilet paper', 3.70, '10')
     assert_equal :paper, product.category
     assert_equal 'toilet paper', product.category
@@ -62,5 +62,5 @@ class ProductTest < Minitest::Test
 
   # Iteration 2
 
-  
+
 end

@@ -1,5 +1,3 @@
-require './lib/product'
-
 class ShoppingCart
 
   attr_reader :name, :capacity, :products, :details
@@ -17,14 +15,12 @@ class ShoppingCart
   end
 
   def details
-
     @details_hash[:name] = @name
     @details_hash[:capacity] = @capacity
     @details_hash
   end
 
   def total_number_of_products
-
     products.each do |product|
       @sum += product.quantity
     end
